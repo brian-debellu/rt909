@@ -1,13 +1,13 @@
 # rt909
 
 cam.py : script d'envoi de message CAM <br/>
-denm.py : script d'envoi de message DENM
-receive.py : script de récupération des messages MQTT
-dockerfile : dockerfile pour la création du docker "car" contenant le cam.py
-xmpp.py : script permettant la remonté d'information au serveur XMPP, appelé par receive.py
+denm.py : script d'envoi de message DENM <br/>
+receive.py : script de récupération des messages MQTT <br/>
+dockerfile : dockerfile pour la création du docker "car" contenant le cam.py <br/> 
+xmpp.py : script permettant la remonté d'information au serveur XMPP, appelé par receive.py <br/>
 
-docker hub :
-briandebellu/xmpp
-briandebellu/mqtt
-briandebellu/car contient cam.py
-briandebellu/car2 contient denm.py
+docker hub : <br/>
+briandebellu/xmpp <br/> 
+briandebellu/mqtt <br/>
+briandebellu/car contient cam.py <br/> 
+briandebellu/car2 contient denm.py <br/>
