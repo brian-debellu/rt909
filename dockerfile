@@ -1,4 +1,4 @@
-#DOCKERFILE pour le serveur MQTT Broker
+#DOCKERFILE pour une voiture de test
 
 #Image serveur MQTT
 FROM python:3.7-alpine
