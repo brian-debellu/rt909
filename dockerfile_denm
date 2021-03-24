@@ -1,4 +1,4 @@
-#DOCKERFILE pour une voiture de test CAM
+#DOCKERFILE pour une voiture de test DENM
 
 #Image serveur MQTT
 FROM python:3.7-alpine
@@ -10,4 +10,4 @@ COPY ./ /app
 RUN pip3 install --no-cache paho-mqtt
 
 #Execution des scripts
-CMD python3 /app/cam.py
+CMD python3 /app/denm.py
